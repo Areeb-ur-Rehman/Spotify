@@ -36,8 +36,69 @@ nav ul li{
     font-size: 1.3rem;
 }
 
+.container{
+    min-height: 67vh;
+    background-color: black;
+    color: white;
+    font-family: 'Verela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(/assets/frank-septillion-Qrspubmx6kE-unsplash.jpg);
+}
+
 .bottom{
     position: sticky;
-    height: 100px;
+    height: 130px;
     background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+}
+
+.songItemContainer{
+    margin-top: 60px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 80%; */
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0  23px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
 }
